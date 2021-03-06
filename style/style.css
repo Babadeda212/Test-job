@@ -4,18 +4,18 @@
     height: 210px;
     background-color: #13294b;
     display: flex;
+    justify-content: center;
 }
 .logo{
     width: 272px;
     height: 90px;
     margin-top: 50px;
-    margin-left: 370px;
 }
 .contact{
     width: 364px;
     height: 80px;
     margin-top: 71px;
-    margin-left: 250px;
+    margin-left: 15%;
 }
 .phone{
     font-family: 'Montserrat', sans-serif;
@@ -35,19 +35,68 @@
     width: 128px;
     height: 25px;
     margin-top: 70px;
-    margin-left: 190px;
+    margin-left: 10%;
+    display: flex;
 }
 .icon{
     width: 25px;
     height: 25px;
+    margin-right: 5px;
 }
-
+@media screen and (max-width: 994px) {
+   .logo{
+       width: 150px;
+       height: 50px;
+       margin-top: 8%;
+       margin-left: 10%;
+    } 
+    .iconGroup{
+        margin-top: 8%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 692px){
+    .contact{
+        display: none;
+    }
+    .logo{
+        width: 200px;
+        height: 70px;
+        margin-left: 10%;
+     } 
+     .iconGroup{
+        margin-top: 10%;
+    }
+     .icon{
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 547px){
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        margin: 0;
+    }
+    .iconGroup{
+        margin: 0;
+        width: fit-content;
+        height: fit-content;
+    }
+    .icon{
+        margin-right: 15px;
+    }
+}
 .menu{
     border-top: 210px;
     background-color: #f8485e;
     width: 100%;
     height: 60px;
     display: flex;
+    justify-content: center;
 }
 .menu__text{
     color: white;
@@ -57,11 +106,13 @@
     margin-top: 20px;
     margin-right: 40px;
 }
-.menu__text:first-child{
-    margin-left: 370px;
-}
 .menu__text:last-child{
     margin-right:0px;
+}
+@media screen and (max-width: 1222px){
+    .menu{
+        display: none;
+    }
 }
 .root{
     background-image: url('../image/backGround.png');
