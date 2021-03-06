@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/media.css">
     </head>
     <body class="root">
         <section class="header">
@@ -26,6 +27,7 @@
             </div>
         </section>
         <div class="menu">
+            <div class="menu__line">
                 <h2 class="menu__text">Главная</h2>
                 <h2 class="menu__text">Доктора</h2>
                 <h2 class="menu__text">Услуги</h2>
@@ -36,33 +38,63 @@
                 <h2 class="menu__text">Отзовы</h2>
                 <h2 class="menu__text">Галерея</h2>
                 <h2 class="menu__text">Контакты</h2>
+            </div>
+            <div class="menu__drop">
+                <h2 class="drop__button">Меню</h2>
+                <div class="drop__content">
+                    <h2 class="menu__text">Главная</h2>
+                    <h2 class="menu__text">Доктора</h2>
+                    <h2 class="menu__text">Услуги</h2>
+                    <h2 class="menu__text">Работы</h2>
+                    <h2 class="menu__text">Ветаптека</h2>
+                    <h2 class="menu__text">Зоомагазин</h2>
+                    <h2 class="menu__text">Вопросы</h2>
+                    <h2 class="menu__text">Отзовы</h2>
+                    <h2 class="menu__text">Галерея</h2>
+                    <h2 class="menu__text">Контакты</h2>
+                </div>
+            </div>
         </div>
         <section class="body">
                 <img src="image/Heading.png" alt="" class="title">
-                <div class="block agap">
-                    <img class="agap__profil" src="image/agap.png">
+                <div class="block">
+                    <div class="agap">
+                        <img class="agap__profil" src="image/agap.png">
                     <div class="text">
                         <div class="education">
                             <h2 class="basic__title">Основное образование:</h2>
-                            <h2 class="year">2012 г.</h2>
-                            <h2 class="info"> Диплом по специальности "Ветеринария", присвоена квалификация «Ветеринарный врач», СПбГАВМ.</h2>
+                            <div class="parag">
+                                <h2 class="year">2012г.</h2>
+                                <p class="info"> Диплом по специальности "Ветеринария", присвоена квалификация «Ветеринарный врач», СПбГАВМ.</p>
+                            </div>
                         </div>
                         <div class="education">
                             <h2 class="basic__title">Дополнительное образование:</h2>
-                            <h2 class="year">2015 г.</h2>
-                            <h2 class="info"> образовательная программа "Болезни мелких домашних животных" СПбГАВМ, <br>г. Санкт-Петербург;</h2>
-                            <h2 class="year">2016 г.</h2>
-                            <h2 class="info"> курс "Основы топографической анатомии",<br>г. Санкт-Петербург.</h2>
+                            <div class="parag">
+                                <h2 class="year">2015г.</h2>
+                                <h2 class="info"> образовательная программа "Болезни мелких домашних животных" СПбГАВМ, г. Санкт-Петербург;</h2>
+                            </div>
+                            <div class="parag">
+                                <h2 class="year">2016г.</h2>
+                                <h2 class="info"> курс "Основы топографической анатомии",г. Санкт-Петербург.</h2>
+                            </div>
                         </div>
                         <div class="education">
                             <h2 class="basic__title">Профессиональное образование:</h2>
-                            <h2 class="year">2016 г.</h2>
-                            <h2 class="info">участие в международной ветеринарной конференции "Ортопедия и травматология",<br>г. Москва;</h2>
-                            <h2 class="year">2017 г.</h2>
-                            <h2 class="info">участие в мастер-классе «УЗИ брюшной полости» на базе обучающего центра Бальф,<br>г. Санкт-Петербург;</h2>
-                            <h2 class="year">2021 г.</h2>
-                            <h2 class="info">участие в вебинаре по дерматологии «Диагностика дерматологического пациента» на базе Ассоциации ветеринарных клиник города Санкт-Петербурга.</h2>
+                            <div class="parag">
+                                <h2 class="year">2016г.</h2>
+                                <h2 class="info">участие в международной ветеринарной конференции "Ортопедия и травматология",<br>г. Москва;</h2>
+                            </div>
+                            <div class="parag">
+                                <h2 class="year">2017г.</h2>
+                                <h2 class="info">участие в мастер-классе «УЗИ брюшной полости» на базе обучающего центра Бальф,<br>г. Санкт-Петербург;</h2>
+                            </div>
+                            <div class="parag">
+                                <h2 class="year">2021г.</h2>
+                                <h2 class="info">участие в вебинаре по дерматологии «Диагностика дерматологического пациента» на базе Ассоциации ветеринарных клиник города Санкт-Петербурга.</h2>
+                            </div>
                         </div>
+                    </div>
                     </div>
                     <div class="diploms">
                         <img src="image/serf1.jpeg" class="serf__vertical">
@@ -72,55 +104,83 @@
                         <img src="image/serf5.jpg" class="serf__gorizontal">
                     </div>
                 </div>
-                <div class="block pod">
-                    <div class="text pod__text">
-                        <div class="education">
-                            <h2 class="basic__title">Основное образование:</h2>
-                            <h2 class="year">2011 г.</h2>
-                            <h2 class="info"> Диплом по специальности "Ветеринария", присвоена квалификация «Ветеринарный врач», СПбГАВМ.</h2>
-                        </div>
-                        <div class="education ">
-                            <h2 class="basic__title">Дополнительное образование:</h2>
-                            <h2 class="year">2010 г.</h2>
-                            <h2 class="info">курс «Управление бизнесом в ветеринарной практике» на базе образовательного центра «Hills»;</h2>
-                            <h2 class="year">2011 г.</h2>
-                            <h2 class="info">курс «Диетология» на базе образовательного центра «Hills»;</h2>
-                            <h2 class="year">2011 г.</h2>
-                            <h2 class="info">курс  "УЗИ  диагностика мелких домашних животных", СПбГАВМ Санкт-Петербург;</h2>
-                            <h2 class="year">2011 г.</h2>
-                            <h2 class="info">курс  "Практические моменты диагностики и лечения сахарного диабета у собак и кошек", Беленсон М.М., Москва;</h2>
-                            <h2 class="year">2014 г.</h2>
-                            <h2 class="info">курс « Болезни репродуктивной системы» Наконечная В. В.;</h2>
-                            <h2 class="year">2014 г.</h2>
-                            <h2 class="info">курс «Особенности выбора хондропротектора. Сравнительный анализ хондропротекторов для мелких домашних животных», Рогачева Н.С. Москва;</h2>
-                            <h2 class="year">2015 г.</h2>
-                            <h2 class="info">мастер-класс «Кожная пластика мелких домашних животных» на базе обучающего центра Бальф, Санкт-Петербург;</h2>
-                            <h2 class="year">2016 г.</h2>
-                            <h2 class="info">мастер-класс «Эхокардиография собак и кошек» на базе обучающего центра Бальф, Санкт-Петербург.</h2>
-                        </div>
-                        <div class="education">
-                            <h2 class="basic__title">Профессиональное образование:</h2>
-                            <h2 class="year">2011 г.</h2>
-                            <h2 class="info">международный Балтийский форум ветеринарной медицины;</h2>
-                            <h2 class="year">2016 г.</h2>
-                            <h2 class="info">международная ветеринарная конференция NVC, Москва;</h2>
-                            <h2 class="year">2016-<br>2020 г.</h2>
-                            <h2 class="info">постоянный участник ветеринарных конгрессов и конференций .</h2>
+                <div class="block">
+                    <div class="agap">
+                        <img class="agap__profil" src="image/pod.png">
+                        <div class="text pod__text">
+                            <div class="education">
+                                <h2 class="basic__title">Основное образование:</h2>
+                                <div class="parag">
+                                    <h2 class="year">2011г.</h2>
+                                    <h2 class="info"> Диплом по специальности "Ветеринария", присвоена квалификация «Ветеринарный врач», СПбГАВМ.</h2>
+                                </div>
+                            </div>
+                            <div class="education ">
+                                <h2 class="basic__title">Дополнительное образование:</h2>
+                                <div class="parag">
+                                    <h2 class="year">2010г.</h2>
+                                    <h2 class="info">курс «Управление бизнесом в ветеринарной практике» на базе образовательного центра «Hills»;</h2>
+                                </div>
+                                <div class="parag">
+                                    <h2 class="year">2011г.</h2>
+                                    <h2 class="info">курс «Диетология» на базе образовательного центра «Hills»;</h2>
+                                </div>
+                                <div class="parag">
+                                    <h2 class="year">2011г.</h2>
+                                    <h2 class="info">курс  "УЗИ  диагностика мелких домашних животных", СПбГАВМ Санкт-Петербург;</h2> 
+                                </div>
+                                <div class="parag">
+                                    <h2 class="year">2011г.</h2>
+                                    <h2 class="info">курс  "Практические моменты диагностики и лечения сахарного диабета у собак и кошек", Беленсон М.М., Москва;</h2> 
+                                </div>
+                                <div class="parag">
+                                    <h2 class="year">2014г.</h2>
+                                    <h2 class="info">курс « Болезни репродуктивной системы» Наконечная В. В.;</h2>
+                                </div>
+                                <div class="parag">
+                                    <h2 class="year">2014г.</h2>
+                                    <h2 class="info">курс «Особенности выбора хондропротектора. Сравнительный анализ хондропротекторов для мелких домашних животных», Рогачева Н.С. Москва;</h2>
+                                </div>
+                                <div class="parag">
+                                    <h2 class="year">2015г.</h2>
+                                    <h2 class="info">мастер-класс «Кожная пластика мелких домашних животных» на базе обучающего центра Бальф, Санкт-Петербург;</h2>
+                                </div>
+                                <div class="parag">
+                                    <h2 class="year">2016г.</h2>
+                                    <h2 class="info">мастер-класс «Эхокардиография собак и кошек» на базе обучающего центра Бальф, Санкт-Петербург.</h2>
+                                </div>
+                            </div>
+                            <div class="education">
+                                <h2 class="basic__title">Профессиональное образование:</h2>
+                                <div class="parag">
+                                    <h2 class="year">2011г.</h2>
+                                    <h2 class="info">международный Балтийский форум ветеринарной медицины;</h2>
+                                </div>
+                                <div class="parag">
+                                    <h2 class="year">2016г.</h2>
+                                    <h2 class="info">международная ветеринарная конференция NVC, Москва;</h2>
+                                </div>
+                                <div class="parag">
+                                    <h2 class="year">2016-<br>2020г.</h2>
+                                    <h2 class="info">постоянный участник ветеринарных конгрессов и конференций .</h2>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <img class="pod__profile" src="image/pod.png">
-                    <div class="diploms diploms__pod">
-                        <img src="image/pod1.jpg" class="pod__vertical">
-                        <img src="image/pod2.jpg" class="pod__vertical">
-                        <img src="image/pod3.jpg" class="pod__vertical">
-                        <img src="image/pod4.jpg" class="pod__vertical">
-                        <img src="image/pod5.jpg" class="pod__vertical">
-                        <img src="image/pod6.jpg" class="pod__vertical">
-                        <img src="image/pod7.jpg" class="pod__gorizontal">
-                        <img src="image/pod8.jpg" class="pod__gorizontal">
-                        <img src="image/pod9.jpg" class="pod__gorizontal">
-                        <img src="image/pod10.jpg" class="pod__gorizontal">
-                        <img src="image/pod11.jpg" class="pod__gorizontal">
+                    <div class="diploms">
+                        <div class="vertical">
+                            <img src="image/pod1.jpg" class="serf__vertical">
+                            <img src="image/pod2.jpg" class="serf__vertical">
+                            <img src="image/pod3.jpg" class="serf__vertical">
+                            <img src="image/pod4.jpg" class="serf__vertical">
+                            <img src="image/pod5.jpg" class="serf__vertical">
+                            <img src="image/pod6.jpg" class="serf__vertical">
+                        </div>
+                        <img src="image/pod7.jpg" class="serf__gorizontal">
+                        <img src="image/pod8.jpg" class="serf__gorizontal">
+                        <img src="image/pod9.jpg" class="serf__gorizontal">
+                        <img src="image/pod10.jpg" class="serf__gorizontal">
+                        <img src="image/pod11.jpg" class="serf__gorizontal">
                     </div>
                 </div>
         </section>
